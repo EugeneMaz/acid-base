@@ -1,0 +1,9 @@
+name: sympy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - scipy
+  - sympy
+  - matplotlib
+  - numpy
