@@ -1,6 +1,6 @@
 # Acid-Base Equilibrium
 
-A SymPy-based model for calculating the equilibrium composition of a polyprotic buffer system while accounting for ionic strength and activity coefficients.
+A model for calculating the equilibrium composition of a polyprotic buffer system while accounting for ionic strength and activity coefficients.
 
 The project contains the reusable `AcidBaseEquilibrium` class in `acid_base_equilibrium.py` and example calculations in `buffer-equilibrium.ipynb`.
 
