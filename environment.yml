@@ -8,3 +8,7 @@ dependencies:
   - matplotlib
   - numpy
   - joblib
+  - ipython
+  - ipykernel
+  - notebook
+  - jupyterlab

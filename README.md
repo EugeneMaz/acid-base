@@ -4,6 +4,7 @@ A SymPy-based model for calculating the equilibrium composition of a polyprotic 
 
 The project contains the reusable `AcidBaseEquilibrium` class in `acid_base_equilibrium.py` and example calculations in `buffer-equilibrium.ipynb`.
 
+
 ## Features
 
 - Supports one or more acid dissociation constants (`pKa` values).
@@ -20,10 +21,17 @@ The project contains the reusable `AcidBaseEquilibrium` class in `acid_base_equi
 - Python 3
 - Jupyter Notebook or JupyterLab
 
-The supplied `environment.yml` provides the numerical dependencies. The module also uses IPython and joblib, so install those packages if they are not already available in your environment.
+The supplied `environment.yml` includes the numerical, IPython, joblib, and Jupyter dependencies needed to run the notebook and module.
 
 ## Running the examples
 
+### Binder
+
+The repository can be opened interactively in Binder:
+
+[![Launch in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EugeneMaz/acid-base/HEAD?labpath=buffer-equilibrium.ipynb)
+
+## Python
 Start Jupyter from this directory:
 
 ```bash
