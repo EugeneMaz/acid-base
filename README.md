@@ -1,15 +1,16 @@
 # Acid-Base Equilibrium
 
-A model for calculating the equilibrium composition of a polyprotic buffer system while accounting for ionic strength and activity coefficients.
+Equation system solver for calculating the equilibrium composition of a polyprotic buffer system given an initial pH and total concentration, accounting for ionic strength and activity coefficients.
 
 The project contains the reusable `AcidBaseEquilibrium` class in `acid_base_equilibrium.py` and example calculations in `buffer-equilibrium.ipynb`.
 
 
 ## Features
 
-- Supports one or more acid dissociation constants (`pKa` values).
+- Supports one or more acid dissociation constants ($pK_a$ values).
 - Includes water autoionization optionally.
-- Supports Davies and Truesdell-Jones activity-coefficient models for H+ and OH-.
+- Uses Davies equation to calculate the activity coefficients of buffer species
+- Supports Davies and Truesdell-Jones activity-coefficient models for $\ce{H+}$ and $\ce{OH-}$.
 - Solves one set of conditions or sweeps concentration, pH, and added ionic strength.
 - Can parallelize range calculations with `joblib`.
 - Displays equilibrium equations and concentration results in a Jupyter notebook.
